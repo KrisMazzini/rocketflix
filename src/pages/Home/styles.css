@@ -3,3 +3,48 @@ header img {
     width: 62.93px;
     margin-bottom: 20px;
 }
+
+button {
+    height: 47px;
+    width: 181px;
+
+    margin: 30px 0 26px;
+    border: 2px solid var(--button-margin);
+    border-radius: 5px;
+    outline: none;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    background-color: var(--button-background);
+}
+
+button img {
+    width: 35.56px;
+    height: 25.29px;
+    margin-right: 17px;
+}
+
+button p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+}
+
+footer {
+    display: inline-flex;
+}
+
+footer p {
+    max-width: 381px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: var(--title);
+}
