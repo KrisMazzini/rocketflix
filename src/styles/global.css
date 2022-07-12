@@ -15,7 +15,7 @@ html * {
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     padding: 50px 10px;
 
     display: flex;
@@ -30,6 +30,15 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
+    text-align: center;
+    color: var(--title);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
     color: var(--title);
 }
 

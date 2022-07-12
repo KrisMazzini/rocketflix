@@ -1,0 +1,21 @@
+.movie {
+    margin-top: 30px;
+}
+
+.movie img {
+    width: 171px;
+    height: 243.77px;
+    margin-bottom: 20px;
+}
+
+.movie p {
+    margin-top: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: var(--title);
+}

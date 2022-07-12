@@ -1,5 +1,7 @@
 import './styles.css'
 
+import { Movie } from '../../components/Movie'
+
 export function Home() {
     return (
         <main>
@@ -7,6 +9,7 @@ export function Home() {
                 <img src="/shuffle.svg" alt="Icon"/>
                 <h1>Não sabe o que assistir?</h1>
             </header>
+            <Movie />
             <form action="" method="get">
                 <button type="submit">
                     <img src="/shuffle.svg" alt="Icon" />
