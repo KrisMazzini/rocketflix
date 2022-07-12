@@ -1,10 +1,10 @@
-header img {
+main header img {
     height: 87.24px;
     width: 62.93px;
     margin-bottom: 20px;
 }
 
-button {
+main button {
     height: 47px;
     width: 181px;
 
@@ -21,24 +21,24 @@ button {
     background-color: var(--button-background);
 }
 
-button img {
+main button img {
     width: 35.56px;
     height: 25.29px;
     margin-right: 17px;
 }
 
-button p {
+main button p {
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #000;
 }
 
-footer {
+main footer {
     display: inline-flex;
 }
 
-footer p {
+main footer p {
     max-width: 381px;
 
     font-weight: 400;
