@@ -53,7 +53,7 @@ export function Home() {
         <main>
             <header>
                 <img src="/shuffle.svg" alt="Icon"/>
-                <h1>Não sabe o que assistir?</h1>
+                <h1>Don&apos;t know what to watch?</h1>
             </header>
             {
                 !!movie ? (
@@ -64,15 +64,13 @@ export function Home() {
                     />
                 ) : <></>
             }
-            <form action="">
-                <button type="button" onClick={handleShuffleMovie}>
-                    <img src="/shuffle.svg" alt="Icon" />
-                    <p>Encontrar filme</p>
-                </button>
-            </form>
+            <button type="button" onClick={handleShuffleMovie}>
+                <img src="/shuffle.svg" alt="Icon" />
+                <p>Find movie</p>
+            </button>
             <footer>
                 <p>
-                    Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.
+                    Click on "Find movie" that we&apos;ll bring a suggestion for you to watch today.
                 </p>
             </footer>
         </main>
