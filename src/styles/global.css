@@ -1,3 +1,39 @@
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    --mobile-background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%);
+  }
+
 html * {
     box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    padding: 50px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--mobile-background);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--title);
+}
+
+@media (min-width: 600px) {
+    body {
+        background: var(--background);
+    }
 }
