@@ -14,8 +14,19 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     text-align: center;
-
     color: var(--title);
+}
+
+@media (min-width: 700px) {
+    .movie {
+        margin: 30px 15% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie img {
+        margin: 0 34px 0 0;
+    }
 }
