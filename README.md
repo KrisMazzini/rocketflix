@@ -17,6 +17,9 @@ Layout 👉🏽 [Get a copy on Figma](https://www.figma.com/file/9HFoO4wNB150gRS
 This project uses an API provided by The Movie Database to randomly recommend
 movies for the user.
 
+The API returns the movie's cover, title and synopsis. All of these data are exhibited on
+the screen.
+
 ## 💻 Clone
 
 1. clone this repository using ```git clone git@github.com:KrisMazzini/rocketflix.git``` ... or simply download the project zip;
