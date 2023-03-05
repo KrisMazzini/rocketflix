@@ -1,4 +1,4 @@
-# Project Name <img height=30 align="right" src="https://user-images.githubusercontent.com/93556620/222935374-355a231f-47f0-45ed-99cd-84a62fd0562e.svg">
+# Rocketflix <img height=30 align="right" src="https://user-images.githubusercontent.com/93556620/222935374-355a231f-47f0-45ed-99cd-84a62fd0562e.svg">
 
 
 
@@ -55,7 +55,6 @@ The following techs were used during the construction of this project:
   <img align="center" alt="GIT" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
   <img align="center" alt="GITHUB" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
   <img align="center" alt="VSCODE" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-
 </div>
 
 <br>
